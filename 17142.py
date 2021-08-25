@@ -1,6 +1,6 @@
 import sys
 from collections import deque
-sys.stdin = open("input.txt", "r")
+# sys.stdin = open("input.txt", "r")
 
 n, m = map(int, input().split())
 lab = [list(map(int, input().split())) for _ in range(n)]
